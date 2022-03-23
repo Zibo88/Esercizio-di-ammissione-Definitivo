@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    width: 100vh;
+    position: absolute;
+    
+
+    
+}
+
+.container {
+    background-color: rgba(111,111,111,0.5);
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    margin-top: 50px; 
+  }
+
+header{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#img1 {
+    width: 180px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 243, 12);
+    text-align: center;
+}
+
+nav{
+    text-align: center;  
+    background-color: rgb(12, 243, 12);
+    padding: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.utente{
+    margin-left: 85px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.monopattino {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.address {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.chargestate {
+    color: whitesmoke;
+ padding-top: 5px;
+}
+
+.percentuale{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.percentuale2{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.percentuale3 {
+    background-color: darkred;
+    border-radius: 10px;
+}
+
